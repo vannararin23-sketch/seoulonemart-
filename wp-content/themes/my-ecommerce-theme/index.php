@@ -10,23 +10,22 @@ if (have_posts()) :
 endif;
 ?>
 </main>
-<div class="why_choose_us_section">
-  <div class="why_choose_us_card">
-    <i class="fa-solid fa-bowl-food"></i>
-    <p>Authentic Korean Meals</p>
+
+<!-- Hero-Section -->
+<div class="hero_section">
+  <div class="hero_side">
+    <h1>Samyang Hot Chicken Ramen</h1>
+    <p>Experience the bold, spicy flavor loved by millions worldwide. Perfect for quick meals with maximum kick.</p>
+    <button class="btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+      Shop Now
+    </button>
   </div>
-  <div class="why_choose_us_card">
-    <i class="fa-solid fa-clock"></i>
-    <p>Fast & Easy Shopping</p>
-  </div>
-  <div class="why_choose_us_card">
-    <i class="fa-solid fa-tag"></i>
-    <p>Affordable Prices</p>
-  </div>
-  <div class="why_choose_us_card">
-    <i class="fa-solid fa-leaf"></i>
-    <p>Fresh & Ready-to-Eat</p>
+  <div class="hero_side">
+    <img src="wp-content/themes/astra/assets/image/hero image.png" alt="Hot Chicken Ramen">
   </div>
 </div>
 
+<!-- Featured Product -->
+ <div></div>
 <?php get_footer(); ?>
